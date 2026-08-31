@@ -1,0 +1,11 @@
+# Core
+anyio>=4.0.0
+
+# Backend: Anthropic API SDK (LLM_BACKEND=api)
+anthropic>=0.40.0
+
+# Backend: Claude Agent SDK (LLM_BACKEND=agent) - also needs Node.js 18+ on PATH
+claude-agent-sdk>=0.1.0
+
+# Optional: auto-load a local .env file
+python-dotenv>=1.0.0
